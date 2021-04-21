@@ -11,7 +11,7 @@ namespace _20210421_2
             int inputN1 = int.Parse(input1);
             int inputN2 = int.Parse(input2);
 
-            Console.WriteLine(inputN1 + "*" + inputN2 + "=" + (inputN1 + inputN2));
+            Console.WriteLine(inputN1 + "*" + inputN2 + "=" + (inputN1 * inputN2));
 
         }
     }
